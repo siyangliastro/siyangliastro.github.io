@@ -6,7 +6,6 @@ excerpt: ' '
 date: 2019-05-07
 venue: 'SPIE Defense + Commercial Sensing; Infrared Technology and Applications XLV, Proc. SPIE 11002'
 paperurl: /files/PANOSETI_NIRDAPD_SPIE_Paper_2019.pdf
-citation: ' '
 ---
 
 [Download paper here](/files/PANOSETI_NIRDAPD_SPIE_Paper_2019.pdf)
