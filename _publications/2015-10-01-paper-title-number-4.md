@@ -3,7 +3,7 @@ title: "On-sky silicon photomultiplier detector performance measurements for mil
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-4
 excerpt: ' '
-date: 2019-11-27
+date: 2020-11-27
 venue: 'Journal of Astronomical Telescopes, Instruments, and Systems'
 paperurl: /files/UFA_On-Sky_SiPM_SPIE_Paper.pdf
 ---
