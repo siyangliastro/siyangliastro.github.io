@@ -1,10 +1,10 @@
 ---
 title: "On-sky silicon photomultiplier detector performance measurements for millisecond to sub-microsecond optical source variability studies"
 collection: publications
-permalink: /publication/Paper_4
+permalink: /publication/2015-10-01-paper-title-number-4.md
 excerpt: ' '
 date: 2019-11-27
-venue: 'Journal of Astronomical Telescopes, Instruments, and Systems
+venue: 'Journal of Astronomical Telescopes, Instruments, and Systems'
 paperurl: /files/UFA_On-Sky_SiPM_SPIE_Paper.pdf
 ---
 
