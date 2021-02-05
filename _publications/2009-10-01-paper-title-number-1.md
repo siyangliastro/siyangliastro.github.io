@@ -1,10 +1,10 @@
 ---
-title: "Detector characterization of a near-infrared discreteavalanche photodiode 5x5 array for astrophysical observations"
+title: "Detector characterization of a near-infrared discrete avalanche photodiode 5x5 array for astrophysical observations"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: ' '
 date: 2019-05-07
-venue: 'SPIE Defense + Commercial Sensing; Infrared Technology and Applications XLV, Proc. SPIE 11002'
+venue: 'SPIE Defense + Commercial Sensing, Infrared Technology and Applications XLV, Proc. SPIE 11002'
 paperurl: /files/PANOSETI_NIRDAPD_SPIE_Paper_2019.pdf
 ---
 
