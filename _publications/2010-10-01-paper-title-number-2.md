@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2_2
 excerpt: ' '
 date: 2019-10-09
-venue: 'SPIE Optics + Photonics; UV/Optical/IR Space Telescopes and Instruments: Innovative Technologies and Concepts IX], Proc. SPIE 11115'
+venue: 'SPIE Optics + Photonics, UV/Optical/IR Space Telescopes and Instruments: Innovative Technologies and Concepts IX, Proc. SPIE 11115'
 paperurl: /files/UFA_S13360-3050CS_MPPC_Spie_Paper.pdf
 ---
 
