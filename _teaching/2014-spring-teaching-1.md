@@ -1,5 +1,5 @@
 ---
-title: " General Physics: Physical Science Majors II"
+title: "AS.171.102 General Physics: Physical Science Majors II"
 collection: teaching
 type: "Graduate Teaching Assistant: Fall 2020 Undergraduate Course"
 permalink: /teaching/2014-spring-teaching-1
