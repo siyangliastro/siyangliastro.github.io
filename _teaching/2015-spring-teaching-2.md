@@ -1,20 +1,10 @@
 ---
-title: "Teaching experience 2"
+title: "AS.173.111 General Physics Laboratory I"
 collection: teaching
-type: "Workshop"
+type: "Graduate Teaching Assistant: Fall 2020 Undergraduate Course"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: " Johns Hopkins University, Department of Physics and Astronomy"
+location: "Baltimore, Maryland, United States"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+First semester physics lab course for physical science majors.
