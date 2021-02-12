@@ -1,10 +1,9 @@
 ---
 title: " General Physics: Physical Science Majors II"
 collection: teaching
-type: "Graduate Teaching Assistant: Undergraduate Course"
+type: "Graduate Teaching Assistant: Fall 2020 Undergraduate Course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Johns Hopkins University, Department of Physics and Astronomy"
-date: Fall 2020
 location: "Baltimore, Maryland, United States"
 ---
 
