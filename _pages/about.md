@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Siyang Li and I'm currently a first year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology, in particular to use of the cosmic distance ladder to measure the expansion rate of the universe and investigate the Hubble Tension. 
+Hello! My name is Siyang Li and I'm currently a first year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining the anchor of the cosmic distance ladder to measure the expansion rate of the universe and investigate the Hubble Tension. 
 
 # My Research
 
@@ -17,5 +17,5 @@ I'm currently working with Professor Adam Riess in the Supernovae, H0, for the E
 
 # My Background
 
-I recieved my Bachelor of Arts in Physics with honors from the University of California, Berkeley. There, I built a foundation in instrumentation, working with Professor George F. Smoot on developing a silicon photomultiplier camera to search for and characterize optical counterparts to fast radio bursts and other astrophysical sub-millisecond transients. That work brought me literally around the world--I visited Paris Diderot University in France, Hong Kong University of Science and Technology in China, and Nazarbayev University in Kazakhstan to work on my project and collaborate with various researchers. I also spent a summer working with Professor Shelley Wright and Dr. Jerome Maire in the Pulsed All-sky Near-infrared Optical Search for Extraterrestrial Intelligence group at the University of California, San Diego, to characterize a near-infrared discrete avalanche photodiode 5x5 array that is currently being used to search the sky for near-infrared transients.
+I recieved my Bachelor of Arts in Physics with high honors from the University of California, Berkeley. There, I built a foundation in instrumentation working with Professor George F. Smoot on developing a silicon photomultiplier camera to search for and characterize optical counterparts to fast radio bursts and other astrophysical sub-millisecond transients. To work on this project and collaborate with various researchers, I visited Paris Diderot University in France, Hong Kong University of Science and Technology in China, and Nazarbayev University in Kazakhstan. I also spent a summer working with Professor Shelley Wright and Dr. Jerome Maire in the Pulsed All-sky Near-infrared Optical Search for Extraterrestrial Intelligence group at the University of California, San Diego, to characterize a near-infrared discrete avalanche photodiode 5x5 array that is currently being used to search the sky for extraterrestrial technosignatures and other near-infrared transients.
 
