@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Paper_6
 excerpt: ' '
 date: 2021-10-18
+venue: Astrophysical Journal
 citation: 'Siyang Li, Adam G. Riess, Michael P. Busch, Stefano Casertano, Lucas M. Macri, Wenlong Yuan., “A sub-2% Distance to M31 from Photometrically Homogeneous Near-Infrared Cepheid Period-Luminosity Relations Measured with the Hubble Space Telescope”, Astrophysical Journal, 920, 84 (October 18, 2021).'
 ---
 
