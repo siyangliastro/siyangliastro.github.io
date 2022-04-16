@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Siyang Li and I'm currently a first year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining the anchor of the cosmic distance ladder to measure the expansion rate of the universe and investigate the Hubble Tension. 
+Hello! My name is Siyang Li, and I'm currently a second year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining the anchor of the cosmic distance ladder to measure the expansion rate of the universe and investigate the Hubble Tension. 
 
 # My Research
 
-I'm currently working with Professor Adam Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and using Hubble Space Telescope observations of Cepheid variables to determine a 1.5% distance to the Andromeda Galaxy to help further reduce the overall unceratinty in the Hubble Constant and investigate potential tension beteen distance determination methods. Cepheid variables are pulsating stars that have mean magnitudes proportional to the logorithm of their periods and can be used as standard candles to determine extragalactic distances. By using a calibration to the Large Magellenic Cloud that uses the same filter system and combining near-infrared and visible observations into a reddening-free Wesenheit index, we are able to lower the uncertainty in the distance to M31 to an unprecedented level that also provides groundwork for using the Andromeda Galaxy as an anchor in the cosmic distance ladder that is comparable to other galaxies such as the Large Magellenic Cloud and NGC4258.
+I'm currently working with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzing data from space telescopes such as the Hubble Space Telescope and Gaia to lower the uncertainty in the tip of the red giant branch (TRGB) zero-point calibration. The TRGB is a standard candle that can be used to measure extragalactic distances and the expansion rate of the universe, H0, and there is an ongoing debate on whether TRGB measurements of H0 support the hypothesis that new physics is needed to resolve the Hubble Tension. Current uncertainties in the TRGB zero-point make it difficult to discern whether this is the case, but improving the precision of TRGB calibrations, which is the largest contributor to the TRGB H0 error budget, can help clarify this issue.
 
 
 # My Background
