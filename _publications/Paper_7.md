@@ -3,9 +3,9 @@ title: "A Maximum Likelihood Calibration of the Tip of the Red Giant Branch Lumi
 collection: publications
 permalink: /publication/Paper_7
 excerpt: ' '
-date: 2022-02-22
-venue: Submitted to the Astrophysical Journal
-citation: 'Siyang Li, Stefano Casertano, Adam G. Riess., “A Maximum Likelihood Calibration of the Tip of the Red Giant Branch Luminosity from High Latitude Field Giants using Gaia Early Data Release 3 Parallaxes”, Submitted to the Astrophysical Journal (arXiv preprint posted Feb. 22, 2022).'
+date: 2022-11-10
+venue: Astrophysical Journal
+citation: 'Siyang Li, Stefano Casertano, Adam G. Riess., “A Maximum Likelihood Calibration of the Tip of the Red Giant Branch Luminosity from High Latitude Field Giants using Gaia Early Data Release 3 Parallaxes”, Astrophysical Journal, 939, 96 (November 10, 2022).'
 ---
 
 [Download paper here](/files/MW_TRGB_ML_arXiv_2022.pdf)
