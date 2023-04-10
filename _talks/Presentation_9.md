@@ -5,5 +5,5 @@ type: "Talk"
 permalink: /talks/talk-9
 venue: "Johns Hopkins Grad Wine and Cheese Talks"
 date: 2021-09-15
-location: "Online due to COVID-19 pandemic"
+location: "Baltimore, Maryland, United States"
 ---
