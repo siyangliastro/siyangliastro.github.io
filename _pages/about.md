@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Siyang (Sean) Li, and I'm currently a third year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining the anchor of the cosmic distance ladder to measure the expansion rate of the universe and investigate the Hubble Tension. 
+Hello! My name is Siyang (Sean) Li, and I'm currently a fourth year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining anchors of the extragalactic distance ladder to measure the expansion rate of the universe and investigate the Hubble Tension. 
 
 # My Research
 
-I'm currently working with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzing data from the Hubble Space Telescope and Gaia to better standardize and lower uncertainties in the tip of the red giant branch (TRGB) zero-point calibration. The TRGB is a standard candle that can be used to measure extragalactic distances and the expansion rate of the universe, H0, and there is an ongoing debate on whether TRGB-based measurements of H0 support the hypothesis that new physics is needed to resolve the 5 - 6 sigma difference between indirect and direct measurements of H0. Current uncertainties in the TRGB zero-point make it difficult to discern whether this is the case, but improving the precision of TRGB calibrations, which is the largest contributor to the TRGB H0 error budget, as well as improving its standardization, can help clarify this issue.
+I'm currently working with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzing data from the James Webb, Hubble, and Gaia space telescopes to improve the standardization of and lower uncertainties in tip of the red giant branch (TRGB) and J-region Asymptotic Giant Branch (JAGB) zero-point calibrations and extragalactic distance measurements. The TRGB and JAGB are standard candles that can be used to measure extragalactic distances and the expansion rate of the universe, H0. There is currently a 5 - 6 sigma difference between indirect and direct measurements of H0, and refining TRGB and JAGB measurements can help probe this tension.
 
 
 # My Background
