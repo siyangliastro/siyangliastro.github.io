@@ -12,7 +12,7 @@ Hello! My name is Siyang (Sean) Li, and I'm currently a fourth year PhD student 
 
 # My Research
 
-I'm currently working with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzing data from the James Webb, Hubble, and Gaia space telescopes to improve standardization of the tip of the red giant branch (TRGB) and J-region Asymptotic Giant Branch (JAGB). These two standardizable candles can be used to construct distance ladders to measure the expansion rate of the universe, H0, and probe the Hubble tension, which is a 5 - 6 sigma difference between indirect and direct measurements of H0.
+I'm currently working with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzing data from the James Webb, Hubble, and Gaia space telescopes to improve standardization of the tip of the red giant branch (TRGB) and J-region Asymptotic Giant Branch (JAGB). These two standardizable candles can be used to construct distance ladders to measure the current expansion rate of the universe, H0, and probe the Hubble tension, which is a 5 - 6 sigma difference between indirect and direct measurements of H0.
 
 # My Background
 
