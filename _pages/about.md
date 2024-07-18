@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Siyang (Sean) Li, and I'm currently a fourth year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining standardizable candles used to construct extragalactic distance ladders to measure the expansion rate of the universe and investigate the Hubble Tension. 
+Hello! My name is Siyang (Sean) Li, and I'm currently a fourth year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining standardizable candles used to construct extragalactic distance ladders to measure the current expansion rate of the universe and investigate the Hubble Tension. 
 
 # My Research
 
