@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Siyang (Sean) Li, and I'm currently a fourth year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and refining standardizable candles used to construct extragalactic distance ladders to measure the current expansion rate of the universe and investigate the Hubble Tension. 
+Hello! My name is Siyang (Sean) Li, and I'm currently a fifth year PhD student in the Physics and Astronomy department at Johns Hopkins University. I'm interested in observational cosmology and constructing independent routes to measuring the current expansion rate of our universe, Hubble consant (H0), to investigate the Hubble Tension. 
 
 # My Research
 
-I'm currently working with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzing data from the James Webb, Hubble, and Gaia space telescopes to improve standardization of the tip of the red giant branch (TRGB) and J-region Asymptotic Giant Branch (JAGB). These two standardizable candles can be used to construct distance ladders to measure the current expansion rate of the universe, H0, and probe the Hubble tension, which is a 5 - 6 sigma difference between indirect and direct measurements of H0.
+I'm currently working with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzing data from the James Webb, Hubble, and Gaia space telescopes to improve standardization of the tip of the red giant branch (TRGB) and J-region Asymptotic Giant Branch (JAGB). These two standardizable candles can be used to construct distance ladders to measure H0 and probe the causes of the Hubble Tension, which is a 5 - 6 sigma difference between local and cosmological measurements of H0.
 
 # My Background
 
