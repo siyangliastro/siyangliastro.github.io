@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! My name is Siyang (Sean) Li, and I'm currently a Brinson Prize Postdoctoral Fellow at the University of California, Berkeley. I'm interested in observational cosmology and constructing independent routes to measuring the current expansion rate of our universe, Hubble consant (H0), to investigate the Hubble Tension. 
+Hello! My name is Siyang (Sean) Li, and I'm currently a Brinson Prize Postdoctoral Fellow at the University of California, Berkeley. I'm interested in observational cosmology and constructing independent routes to measuring the current expansion rate of our universe, the Hubble consant (H0), to investigate the Hubble Tension. 
 
 # My Research
 
