@@ -1,4 +1,3 @@
-
 ---
 title: "JAGB 2.0: Improved Constraints on the J-region Asymptotic Giant Branch-based Hubble Constant from an Expanded Sample of JWST Observations
 permalink: /publication/JAGB_2
