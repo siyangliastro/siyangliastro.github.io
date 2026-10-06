@@ -1,14 +1,13 @@
 ---
 permalink: /
 title: "About"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello! My name is Siyang (Sean) Li, and I'm currently a Brinson Prize Postdoctoral Fellow at the University of California, Berkeley. I'm interested in observational cosmology and constructing independent routes to measuring the current expansion rate of our universe, the Hubble consant (H0), to investigate the Hubble Tension. 
+Hello! My name is Siyang (Sean) Li, and I'm currently a Brinson Prize Postdoctoral Fellow at the University of California, Berkeley. I'm interested in observational cosmology and constructing independent routes to measuring the current expansion rate of our universe, the Hubble constant (H0), to investigate the Hubble Tension. 
 
 # My Research
 
@@ -16,5 +15,5 @@ During my PhD, I worked with Professor Adam G. Riess in the Supernovae, H0, for 
 
 # My Background
 
-I recieved my Bachelor of Arts in Physics with high honors from the University of California, Berkeley. There, I built a foundation in instrumentation working with Professor George F. Smoot on developing a silicon photomultiplier camera to search for optical counterparts to fast radio bursts and other astrophysical sub-millisecond transients. To work on this project and collaborate with various researchers, I visited Paris Diderot University in France, Hong Kong University of Science and Technology in China, and Nazarbayev University in Kazakhstan. I also spent a summer working with Professor Shelley Wright and Dr. Jerome Maire in the Pulsed All-sky Near-infrared Optical Search for Extraterrestrial Intelligence group at the University of California, San Diego, to characterize a near-infrared discrete avalanche photodiode 5x5 array that is currently being used to search for extraterrestrial technosignatures and other near-infrared transients.
+I received my Bachelor of Arts in Physics with high honors from the University of California, Berkeley. There, I built a foundation in instrumentation working with Professor George F. Smoot on developing a silicon photomultiplier camera to search for optical counterparts to fast radio bursts and other astrophysical sub-millisecond transients. To work on this project and collaborate with various researchers, I visited Paris Diderot University in France, Hong Kong University of Science and Technology in China, and Nazarbayev University in Kazakhstan. I also spent a summer working with Professor Shelley Wright and Dr. Jerome Maire in the Pulsed All-sky Near-infrared Optical Search for Extraterrestrial Intelligence group at the University of California, San Diego, to characterize a near-infrared discrete avalanche photodiode 5x5 array that is currently being used to search for extraterrestrial technosignatures and other near-infrared transients.
 
