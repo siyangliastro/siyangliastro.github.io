@@ -1,13 +1,16 @@
-# Home page research highlights, in display order. Figures are from first-author papers.
+# Home page research highlights, in display order: the most recent first-author
+# papers, JAGB first. Figures are from first-author papers. `image` is optional.
+- theme: "J-region asymptotic giant branch"
+  image: /images/highlights/h0.jpg
+  credit: "Li et al. 2025, ApJ"
+  paper: /publication/JAGB_2
 - theme: "J-region asymptotic giant branch"
   image: /images/highlights/jagb.jpg
   credit: "Li et al. 2024, ApJ"
   paper: /publication/JAGB_Recon
 - theme: "Tip of the red giant branch"
-  image: /images/highlights/trgb.jpg
-  credit: "Li et al. 2023, ApJ"
-  paper: /publication/TRGB_CATs_N4258
-- theme: "The Hubble constant with JWST"
-  image: /images/highlights/h0.jpg
-  credit: "Li et al. 2025, ApJ"
-  paper: /publication/JAGB_2
+  paper: /publication/TRGB_Complete
+- theme: "Tip of the red giant branch"
+  image: /images/highlights/trgb_jwst.jpg
+  credit: "Li et al. 2024, ApJ"
+  paper: /publication/TRGB_JWST
