@@ -44,27 +44,35 @@ service:
     title: "Springer Nature Scientific Reports, Referee"
   - date: "2024"
     title: "The Astrophysical Journal Supplement Series, Referee"
+# Under OUTREACH in the CV. `kind` splits mentoring from public outreach on /teaching/.
 outreach:
   - date: "2025"
     title: "Astro Night Public Outreach Talk"
+    kind: outreach
     note: "Public talk for high school students, community members, and Sequoia Community College undergraduates."
   - date: "2025"
     title: "Johns Hopkins Physics Fair Volunteer"
+    kind: outreach
     note: "Live physics demonstrations to make scientific concepts accessible to the public."
   - date: "2025"
     title: "Johns Hopkins Physics Department Outreach Volunteer"
+    kind: outreach
     note: "Visited Towson High School to present physics demonstrations and discuss careers in astronomy."
   - date: "2024–25"
     title: "Johns Hopkins Physics Department Mentorship Committee Member"
+    kind: mentoring
     note: "Coordinates the mentorship program in the JHU Physics & Astronomy department."
   - date: "2023–24"
     title: "Johns Hopkins Physics Department Mentor"
+    kind: mentoring
     note: "Academic and career mentor for an undergraduate in the JHU Physics & Astronomy department."
   - date: "2021–22"
     title: "PATHS Mentor"
+    kind: mentoring
     note: "Study habits workshop and one-on-one guidance for an Alexandria City public school student."
   - date: "2021"
     title: "ARCH Mentor and Panelist"
+    kind: mentoring
     note: "Scholarship and essay writing panelist; one-on-one mentor for an underprivileged college applicant."
 other:
   - date: "Jun–Jul 2024"
