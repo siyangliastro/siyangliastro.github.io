@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-My group will pursue four connected directions over the next decade.
+## Future directions
 
 **Standardizing the JAGB with spectroscopy.** Continuing the CHASE spectroscopic survey of carbon stars, we will determine how chemistry, carbon-star subtype and variability shape the JAGB luminosity function. The goal is to turn the JAGB into a standardized candle that extends the distance ladder beyond the reach of Cepheids, testing the Hubble tension at distances not yet probed.
 
