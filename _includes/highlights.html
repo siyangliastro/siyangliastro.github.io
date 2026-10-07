@@ -1,0 +1,6 @@
+{% include base_path %}<div class="highlights">{% for h in site.data.highlights %}{% assign p = site.publications | where: "url", h.paper | first %}
+<article class="hl">
+  <figure><a href="{{ base_path }}{{ h.paper }}"><img src="{{ base_path }}{{ h.image }}" alt="Figure from {{ h.credit }}" loading="lazy"></a><figcaption>{{ h.credit }}</figcaption></figure>
+  <div><h3>{{ h.theme }}</h3><p><a href="{{ base_path }}{{ h.paper }}">{{ p.title }}</a>{% if p.venue_short %}, {{ p.venue_short }} ({{ p.date | date: "%Y" }}){% endif %}</p>{% if h.text %}<p>{{ h.text }}</p>{% endif %}</div>
+</article>{% endfor %}
+</div>

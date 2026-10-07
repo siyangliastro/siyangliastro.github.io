@@ -6,9 +6,17 @@ excerpt: ' '
 date: 2019-05-07
 venue: 'SPIE Defense + Commercial Sensing, Infrared Technology and Applications XLV, Proc. SPIE 11002'
 citation: 'Siyang Li, Jerome Maire, Maren Cosens, Shelley A. Wright. "Detector characterization of a near-infrared discrete avalanche photodiode 5x5 array for astrophysical observations", in [SPIE Defense + Commercial Sensing; Infrared Technology and Applications XLV], Proc. SPIE 11002, 110022G (May 7, 2019).'
+authors: 'Siyang Li, Jerome Maire, Maren Cosens, Shelley A. Wright'
+authorship: first
+pubtype: proceedings
+venue_short: 'Proc. SPIE 11002, 110022G'
+arxiv: '1906.03837'
+doi: '10.1117/12.2519207'
+ads: 'https://ui.adsabs.harvard.edu/abs/2019SPIE11002E..2GL/abstract'
+themes: [instrumentation]
 ---
 
-[Download paper here](/files/PANOSETI_NIRDAPD_SPIE_Paper_2019.pdf)
+{% include pub-links.html %}
 
 Abstract: We present detector characterization of a state-of-the-art near-infrared (950 nm - 1650 nm) Discrete Avalanche
 Photodiode detector (NIRDAPD) 5x5 array. We designed an experimental setup to characterize the NIRDAPD

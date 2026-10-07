@@ -6,9 +6,17 @@ excerpt: ' '
 date: 2020-12-13
 venue: 'SPIE Astronomical Telescopes + Instrumentation, X-Ray, Optical, and Infrared Detectors for Astronomy IX, Proc. SPIE 11454'
 citation: 'Siyang Li, George F. Smoot III. “Characterization of a high efficiency silicon photomultiplier for millisecond to sub-microsecond astrophysical transient searches”, in [SPIE Astronomical Telescopes + Instrumentation; X-Ray, Optical, and Infrared Detectors for Astronomy IX], Proc. SPIE 11454, 1145422 (December 13, 2020).'
+authors: 'Siyang Li, George F. Smoot III'
+authorship: first
+pubtype: proceedings
+venue_short: 'Proc. SPIE 11454, 1145422'
+arxiv: '2012.00132'
+doi: '10.1117/12.2561936'
+ads: 'https://ui.adsabs.harvard.edu/abs/2020SPIE11454E..22L/abstract'
+themes: [instrumentation]
 ---
 
-[Download paper here](/files/UFA_S14160-3050HS_MPPC_SPIE_Paper_2020.pdf)
+{% include pub-links.html %}
 
 Abstract: We characterized the S14160-3050HS Multi-Pixel Photon Counter (MPPC), a high efficiency, single channel
 silicon photomultiplier manufactured by Hamamatsu Photonics K.K. All measurements were performed at a
