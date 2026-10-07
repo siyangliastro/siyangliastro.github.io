@@ -1,16 +1,35 @@
 ---
 layout: archive
-title: "Talks and Presentations"
+title: "Talks, Teaching & Mentoring"
 permalink: /talks/
 author_profile: true
+redirect_from:
+  - /teaching/
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<h2 id="invited">Invited talks</h2>
+<ul class="cv-list">
+{% for t in site.data.talks.invited %}<li><span class="when">{{ t.date }}</span> <span>{{ t.event }}{% if t.url %} (<a href="{{ t.url }}">recording</a>){% endif %}</span></li>
+{% endfor %}</ul>
 
-{% endif %}
+<h2 id="contributed">Contributed talks and posters</h2>
+<ul class="cv-list">
+{% for t in site.data.talks.contributed %}<li><span class="when">{{ t.date }}</span> <span>{{ t.event }}</span></li>
+{% endfor %}</ul>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<h2 id="teaching">Teaching</h2>
+<ul class="cv-list">
+{% for post in site.teaching reversed %}<li><span class="when">{{ post.type | remove: "Graduate Teaching Assistant: " | remove: " Undergraduate Course" }}</span> <span><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>, {{ post.venue | strip }}. Graduate teaching assistant.</span></li>
+{% endfor %}</ul>
+
+<h2 id="mentoring">Mentoring and outreach</h2>
+<ul class="cv-list">
+{% for t in site.data.cv.outreach %}<li><span class="when">{{ t.date }}</span> <span><strong>{{ t.title }}</strong>{% if t.note %}. {{ t.note }}{% endif %}</span></li>
+{% endfor %}</ul>
+
+<h2 id="service">Service</h2>
+<ul class="cv-list">
+{% for t in site.data.cv.service %}<li><span class="when">{{ t.date }}</span> <span>{{ t.title }}</span></li>
+{% endfor %}</ul>

@@ -1,19 +1,35 @@
 ---
 layout: archive
-title: ""
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-<style>
-    .pdf-container {
-        width: 100%; /* Adjust width as needed */
-        height: 600px; /* Adjust height as needed */
-    }
-</style>
+{% include base_path %}
+{% assign cv = site.data.cv %}
+<p class="cv-download"><a class="btn btn--primary btn--large" href="{{ base_path }}{{ cv.pdf }}">Download CV (PDF, {{ cv.pdf_date }})</a></p>
 
-<div class="pdf-container">
-    <embed src="https://siyangliastro.github.io/files/CV_Siyang_Li_May_4_2026.pdf" type="application/pdf" width="100%" height="100%" />
-</div>
+<p>A short summary of the CV. The PDF is the complete record.</p>
+
+<h2 id="position">Position</h2>
+<p>{{ cv.position }}</p>
+
+<h2 id="education">Education</h2>
+<ul class="cv-list">{% for e in cv.education %}<li><span class="when">{{ e.date }}</span> <span>{{ e.title }}{% if e.note %}. {{ e.note }}{% endif %}</span></li>{% endfor %}</ul>
+
+<h2 id="awards">Awards and fellowships</h2>
+<ul class="cv-list">{% for e in cv.awards %}<li><span class="when">{{ e.date }}</span> <span>{{ e.title }}</span></li>{% endfor %}</ul>
+
+<h2 id="telescope">Telescope time</h2>
+<ul class="cv-list">{% for e in cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em></span></li>{% endfor %}</ul>
+
+<h2 id="publications">Publications</h2>
+<p>The full list, with ADS, arXiv and DOI links, is on the <a href="{{ base_path }}/publications/">Publications</a> page.</p>
+
+<h2 id="talks">Talks, teaching, service and outreach</h2>
+<p>See <a href="{{ base_path }}/talks/">Talks, Teaching &amp; Mentoring</a>.</p>
+
+<h2 id="other">Other</h2>
+<ul class="cv-list">{% for e in cv.other %}<li><span class="when">{{ e.date }}</span> <span>{{ e.title }}</span></li>{% endfor %}</ul>
