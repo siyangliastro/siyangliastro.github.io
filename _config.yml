@@ -71,6 +71,10 @@ social:
   links: # An array of links to social media profiles
 
 
+# Visit counter (GoatCounter). Put your GoatCounter code here, e.g. "siyangli" for
+# https://siyangli.goatcounter.com. Leave it empty to turn the counter off.
+goatcounter_code         : ""
+
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
