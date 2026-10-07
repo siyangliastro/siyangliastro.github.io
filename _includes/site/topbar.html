@@ -1,0 +1,4 @@
+{% include base_path %}<header class="topbar"><div class="wrap bar">
+  <a class="name" href="{{ base_path }}/">{{ site.author.name }}</a>
+  <nav aria-label="Main">{% for link in site.data.navigation.main %}{% assign u = link.url %}<a href="{{ base_path }}{{ u }}"{% if page.url == u %} aria-current="page"{% endif %}>{{ link.title }}</a>{% endfor %}</nav>
+</div></header>

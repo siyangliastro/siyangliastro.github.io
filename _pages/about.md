@@ -1,27 +1,28 @@
 ---
 permalink: /
-author_profile: true
+layout: home
 redirect_from: 
   - /about/
   - /about.html
 title: "Siyang Li"
+lede: "I am an observational cosmologist working on local measurements of the Hubble constant. I construct independent distance ladders with JWST, HST, and Gaia to test whether the Hubble tension reflects unrecognized systematics or physics beyond ΛCDM."
+lede2: "My research focuses on calibrating the tip of the red giant branch (TRGB) and the J-region asymptotic giant branch (JAGB) as precision distance indicators."
 ---
 
 {% include base_path %}
 
-<p class="lede">I am an observational cosmologist working on local measurements of the Hubble constant. I construct independent distance ladders with JWST, HST, and Gaia to test whether the Hubble tension reflects unrecognized systematics or physics beyond ΛCDM.</p>
-
-<p class="lede2">My research focuses on calibrating the tip of the red giant branch (TRGB) and the J-region asymptotic giant branch (JAGB) as precision distance indicators.</p>
-
-{% include home-links.html %}
-
+<div class="home-cols">
+<section class="col-main">
 <h2 id="highlights">Research highlights</h2>
 {% include highlights.html %}
-
+</section>
+<aside class="col-side">
 <h2 id="news">News</h2>
 <ul class="news">{% for n in site.data.news %}<li><span class="when">{{ n.date }}</span> <span>{% if n.url %}<a href="{{ base_path }}{{ n.url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>{% endfor %}</ul>
+</aside>
+</div>
 
-<h2 id="about">About</h2>
+## About {#about}
 
 Hello! My name is Siyang (Sean) Li, and I'm currently a Brinson Prize Postdoctoral Fellow at the University of California, Berkeley. I'm interested in observational cosmology and constructing independent routes to measuring the current expansion rate of our universe, the Hubble constant (H0), to investigate the Hubble Tension. 
 

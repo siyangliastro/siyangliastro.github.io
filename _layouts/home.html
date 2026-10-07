@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include base_path %}
+<div class="band band--home">
+  {% include site/topbar.html %}
+  <section class="hero wrap">
+    <img class="headshot" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Photo of {{ site.author.name }}">
+    <div>
+      <h1>{{ site.author.name }}</h1>
+      <p class="role">{{ site.data.cv.position }}</p>
+      <p class="lede">{{ page.lede }}</p>
+      <p class="lede2">{{ page.lede2 }}</p>
+      {% include home-links.html %}
+    </div>
+  </section>
+  <div class="cue" aria-hidden="true">Scroll</div>
+  <p class="band-credit">{{ site.data.header_image.caption }}. Image: {{ site.data.header_image.credit }}</p>
+</div>
+<div class="sheet" id="content">
+  <main class="wrap">
+    {{ content }}
+  </main>
+</div>
