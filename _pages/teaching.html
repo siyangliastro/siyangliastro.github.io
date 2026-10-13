@@ -1,0 +1,29 @@
+---
+layout: archive
+title: "Teaching & Mentoring"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+<p>From the <a href="{{ base_path }}{{ site.data.cv.pdf }}">CV</a>.</p>
+
+<h2 id="teaching">Teaching</h2>
+<ul class="cv-list">
+{% for post in site.teaching reversed %}<li><span class="when">{{ post.type | remove: "Graduate Teaching Assistant: " | remove: " Undergraduate Course" }}</span> <span><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>, {{ post.venue | strip }}. Graduate teaching assistant.</span></li>
+{% endfor %}</ul>
+
+<h2 id="mentoring">Mentoring</h2>
+<ul class="cv-list">
+{% for t in site.data.cv.outreach %}{% if t.kind == "mentoring" %}<li><span class="when">{{ t.date }}</span> <span><strong>{{ t.title }}</strong>{% if t.note %}. {{ t.note }}{% endif %}</span></li>
+{% endif %}{% endfor %}</ul>
+
+<h2 id="outreach">Public outreach</h2>
+<ul class="cv-list">
+{% for t in site.data.cv.outreach %}{% if t.kind == "outreach" %}<li><span class="when">{{ t.date }}</span> <span><strong>{{ t.title }}</strong>{% if t.note %}. {{ t.note }}{% endif %}</span></li>
+{% endif %}{% endfor %}</ul>
+
+<h2 id="service">Service</h2>
+<ul class="cv-list">
+{% for t in site.data.cv.service %}<li><span class="when">{{ t.date }}</span> <span>{{ t.title }}</span></li>
+{% endfor %}</ul>

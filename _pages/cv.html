@@ -19,17 +19,17 @@ redirect_from:
 <h2 id="education">Education</h2>
 <ul class="cv-list">{% for e in cv.education %}<li><span class="when">{{ e.date }}</span> <span>{{ e.title }}{% if e.note %}. {{ e.note }}{% endif %}</span></li>{% endfor %}</ul>
 
-<h2 id="awards">Awards and fellowships</h2>
-<ul class="cv-list">{% for e in cv.awards %}<li><span class="when">{{ e.date }}</span> <span>{{ e.title }}</span></li>{% endfor %}</ul>
-
 <h2 id="telescope">Telescope time</h2>
 <ul class="cv-list">{% for e in cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em></span></li>{% endfor %}</ul>
+
+<h2 id="awards">Awards and fellowships</h2>
+<ul class="cv-list">{% for e in cv.awards %}<li><span class="when">{{ e.date }}</span> <span>{{ e.title }}</span></li>{% endfor %}</ul>
 
 <h2 id="publications">Publications</h2>
 <p>The full list, with ADS, arXiv and DOI links, is on the <a href="{{ base_path }}/publications/">Publications</a> page.</p>
 
-<h2 id="talks">Talks, teaching, service and outreach</h2>
-<p>See <a href="{{ base_path }}/talks/">Talks, Teaching &amp; Mentoring</a>.</p>
+<h2 id="talks">Talks, teaching, mentoring, outreach and service</h2>
+<p>See <a href="{{ base_path }}/talks/">Talks</a> and <a href="{{ base_path }}/teaching/">Teaching &amp; Mentoring</a>.</p>
 
 <h2 id="other">Other</h2>
 <ul class="cv-list">{% for e in cv.other %}<li><span class="when">{{ e.date }}</span> <span>{{ e.title }}</span></li>{% endfor %}</ul>
