@@ -1,16 +1,21 @@
 # Home page research highlights, in display order: the most recent first-author
-# papers, JAGB first. Figures are from first-author papers. `image` is optional.
+# papers, JAGB first. Figures are from first-author papers. `image` is optional;
+# without one, a tile shows `tag`.
 - theme: "J-region asymptotic giant branch"
+  tag: "JAGB"
   image: /images/highlights/h0.jpg
   credit: "Li et al. 2025, ApJ"
   paper: /publication/JAGB_2
 - theme: "J-region asymptotic giant branch"
+  tag: "JAGB"
   image: /images/highlights/jagb.jpg
   credit: "Li et al. 2024, ApJ"
   paper: /publication/JAGB_Recon
 - theme: "Tip of the red giant branch"
+  tag: "TRGB"
   paper: /publication/TRGB_Complete
 - theme: "Tip of the red giant branch"
+  tag: "TRGB"
   image: /images/highlights/trgb_jwst.jpg
   credit: "Li et al. 2024, ApJ"
   paper: /publication/TRGB_JWST

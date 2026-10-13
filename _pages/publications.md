@@ -3,6 +3,10 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+jump:
+  - ["First-author", "first-author-papers"]
+  - ["Co-author", "co-author-papers"]
+  - ["Book chapter & white papers", "book-chapter-and-white-papers"]
 ---
 
 {% include base_path %}
