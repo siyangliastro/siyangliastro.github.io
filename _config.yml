@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Siyang Li"
-  avatar           : "Siyang_Li_Headshot.jpg"
+  avatar           : "Siyang_Li_Headshot_540.jpg" # 540 px copy; full-size original kept for link previews (og_image)
   bio              : "Brinson Prize Postdoctoral Fellow"
   location         : "Berkeley, California, United States"
   employer         :

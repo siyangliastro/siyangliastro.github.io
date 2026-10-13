@@ -6,7 +6,7 @@ collection: talks
 
 type: "Talk" 
 
-permalink: /talks/talk-9 
+permalink: /talks/GradWC_2022 
 
 venue: "Johns Hopkins Grad Wine and Cheese Talks" 
 
