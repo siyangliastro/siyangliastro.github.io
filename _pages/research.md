@@ -3,6 +3,13 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+jump:
+  - ["Future directions", "future-directions"]
+  - ["Observing programs", "observing-programs"]
+  - ["JAGB", "jagb"]
+  - ["TRGB", "trgb"]
+  - ["Hubble constant", "h0"]
+  - ["Instrumentation", "instrumentation"]
 ---
 
 {% include base_path %}
