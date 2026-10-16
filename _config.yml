@@ -91,6 +91,7 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
+  ads              : "https://ui.adsabs.harvard.edu/search/q=orcid:0000-0002-8623-1082" # from the header link of the October 16, 2026 CV
   email            : "seanli@berkeley.edu"
   researchgate     : "https://www.researchgate.net/profile/Siyang_Li9"
   uri              :
