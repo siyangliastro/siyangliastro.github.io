@@ -7,7 +7,7 @@ layout: default
     <img class="headshot" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Photo of {{ site.author.name }}">
     <div>
       <h1>{{ site.author.name }}</h1>
-      <p class="role">{{ site.data.cv.position }}</p>
+      <p class="role">{{ site.data.cv.home_role | default: site.data.cv.position }}</p>
       <p class="lede">{{ page.lede }}</p>
       <p class="lede2">{{ page.lede2 }}</p>
       {% include home-links.html %}
