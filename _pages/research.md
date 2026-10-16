@@ -28,7 +28,7 @@ jump:
 
 Telescope time from the [CV]({{ base_path }}{{ site.data.cv.pdf }}).
 
-<ul class="cv-list">{% for e in site.data.cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em></span></li>{% endfor %}</ul>
+<ul class="cv-list">{% for e in site.data.cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em>{% if e.chase %} Data for the CHASE spectral survey.{% endif %}</span></li>{% endfor %}</ul>
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% assign themes = "jagb|J-region asymptotic giant branch (JAGB)|jagb.jpg|Li et al. 2024, ApJ;trgb|Tip of the red giant branch (TRGB)|trgb.jpg|Li et al. 2023, ApJ;h0|The Hubble constant and the distance ladder|h0.jpg|Li et al. 2025, ApJ;instrumentation|Instrumentation||" | split: ";" %}

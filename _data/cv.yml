@@ -12,12 +12,14 @@ education:
   - date: "2016 – 2020"
     title: "Bachelor of Arts, High Honors in Physics, cum laude, University of California, Berkeley"
     note: "Honors Thesis: Characterization of a High Efficiency Silicon Photomultiplier for Astrophysical Transient Searches. Thesis Advisor: Professor George F. Smoot III"
-# Newest first, as in the CV.
+# Newest first, as in the CV. `chase: true` marks programs whose data CHASE will use (Sean, 2026-10-16).
 telescope:
   - title: "Refining a New Hubble Tension Probe: Testing J-region Asymptotic Giant Branch Homogeneity Assumptions"
     note: "PI, Lick Observatory Shane 3-meter Telescope — 3 nights each semester, 2026A and 2026B"
+    chase: true
   - title: "Towards Standardization of the J-region Asymptotic Giant Branch: Investigating Asymmetric Luminosity Functions with Carbon Star Spectra"
     note: "PI, Apache Point Observatory ARC 3.5-meter Telescope — 7 half-nights, 2024–2025"
+    chase: true
   - title: "Building the Last Bridge Between the PHAT & PHATTER Surveys and Carbon Star Cosmology"
     note: "PI, Hubble Space Telescope Cycle 32 Bridge, GO-17911 — 8 orbits ($25,000), 2024"
   - title: "A 1% cross-calibration of Cepheids, TRGB, and JAGB in five nearby galaxies with HST"
