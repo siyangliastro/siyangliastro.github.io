@@ -3,6 +3,10 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+jump:
+  - ["First-author", "first-author-papers"]
+  - ["Co-author", "co-author-papers"]
+  - ["Book chapter & white papers", "book-chapter-and-white-papers"]
 ---
 
 {% include base_path %}
@@ -10,9 +14,9 @@ author_profile: true
 
 ## First-author papers
 
-### Refereed
+### Refereed and submitted
 <ol class="pub-list" reversed>
-{% for p in pubs %}{% if p.authorship == "first" and p.pubtype == "refereed" %}{% include pub-entry.html p=p %}{% endif %}{% endfor %}
+{% for p in pubs %}{% if p.authorship == "first" %}{% if p.pubtype == "refereed" or p.pubtype == "submitted" %}{% include pub-entry.html p=p %}{% endif %}{% endif %}{% endfor %}
 </ol>
 
 ### Conference proceedings

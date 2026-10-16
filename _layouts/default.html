@@ -13,10 +13,12 @@
 </head>
 <body class="{% if page.layout == 'home' %}is-home{% else %}is-inner{% endif %}">
 <a class="skip" href="#content">Skip to content</a>
+{% include site/topbar.html %}
 <div class="sky" id="sky" style="background-image:url('{{ base_path }}{{ site.data.header_image.file }}')" aria-hidden="true"></div>
 {{ content }}
 <footer class="site-footer">
   <div class="wrap">
+    <nav class="foot-nav" aria-label="Footer">{% for link in site.data.navigation.main %}<a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>{% endfor %}<a href="{{ site.author.orcid }}">ORCID</a>{% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}</nav>
     <p>© {{ site.time | date: "%Y" }} {{ site.author.name }} · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
     <p class="img-credit">Header image: {{ site.data.header_image.caption }}. Credit: {{ site.data.header_image.credit }}. <a href="{{ site.data.header_image.source }}">Source</a>.</p>
   </div>

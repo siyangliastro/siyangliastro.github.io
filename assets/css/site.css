@@ -17,8 +17,11 @@ a:hover{color:var(--ink)}
 
 .band{color:var(--band-text);position:relative}
 .band a{color:var(--band-text)}
-.band--home{min-height:92vh;display:flex;flex-direction:column}
-.topbar .bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding-top:20px;padding-bottom:20px}
+.band--home{min-height:calc(92vh - 62px);display:flex;flex-direction:column}
+.topbar{position:sticky;top:0;z-index:20;color:var(--band-text);transition:background-color .25s ease,box-shadow .25s ease}
+.topbar.is-stuck{background:rgba(12,21,40,.94);box-shadow:0 1px 0 rgba(255,255,255,.06),0 6px 20px rgba(0,0,0,.25);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.topbar a{color:var(--band-text)}
+.topbar .bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding-top:16px;padding-bottom:16px}
 .topbar .name{font-weight:600;text-decoration:none;font-size:17px}
 .topbar nav{display:flex;flex-wrap:wrap;gap:6px 24px}
 .topbar nav a{text-decoration:none;color:#c7cee0;font-size:15px;padding:2px 0;border-bottom:2px solid transparent}
@@ -41,6 +44,10 @@ a:hover{color:var(--ink)}
 .band--inner{padding-bottom:36px}
 .page-head{padding-top:28px}
 .page-head h1{font:500 38px/1.15 'IBM Plex Serif',Georgia,serif;margin:0;color:#fff;max-width:860px}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.jump a{font-size:13px;text-decoration:none;color:var(--band-text);padding:4px 11px;border:1px solid #3c4a6c;border-radius:999px;background:rgba(12,21,40,.35)}
+.jump a:hover{border-color:var(--accent);color:#fff}
+h2[id],section[id],h3[id]{scroll-margin-top:84px}
 .kicker{margin:0 0 8px;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
 .kicker a{color:var(--accent);text-decoration:none}
 
@@ -58,8 +65,17 @@ h3{font-size:19px;font-weight:600;margin:28px 0 8px}
 .hl figure{margin:0}
 .hl img{aspect-ratio:1;object-fit:cover;border-radius:8px;background:#fff}
 figcaption{font-size:12px;color:var(--mute);margin-top:5px}
-.hl h3{margin:0 0 6px;font-size:18px}
+.hl-tile{display:flex;align-items:center;justify-content:center;aspect-ratio:1;border-radius:8px;background:radial-gradient(circle at 30% 30%,#2c3a5c,var(--night) 75%);color:#e9ecf3;font:500 26px/1 'IBM Plex Serif',Georgia,serif;letter-spacing:.06em;text-decoration:none}
+.hl-tile:hover{color:#fff}
+.hl-theme{margin:0 0 4px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink)}
+.hl h3{margin:0 0 6px;font-size:17px;line-height:1.45;font-weight:600}
+.hl h3 a{color:var(--ink);text-decoration:none}
+.hl h3 a:hover{color:var(--accent-ink);text-decoration:underline}
 .hl p{margin:0 0 6px;color:var(--mute);font-size:15px}
+.hl-venue{font-size:14px}
+.more{margin:4px 0 0;font-size:15px}
+.more a{font-weight:500}
+.is-home .sheet main>p,.is-home .sheet main>h3{max-width:75ch}
 .news,.cv-list{list-style:none;padding:0;margin:0}
 .news li{padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px}
 .news .when{display:block;color:var(--accent-ink);font-weight:600;font-size:13px}
@@ -89,6 +105,9 @@ ul.pub-list{list-style:disc}
 
 .site-footer{background:var(--paper);border-top:1px solid var(--rule);color:var(--mute);font-size:13px;padding:22px 0 30px}
 .site-footer p{margin:4px 0}
+.foot-nav{display:flex;flex-wrap:wrap;gap:4px 18px;margin:0 0 10px}
+.foot-nav a{text-decoration:none;font-weight:500}
+.foot-nav a:hover{color:var(--ink)}
 .site-footer a{color:var(--mute)}
 
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
@@ -98,11 +117,17 @@ ul.pub-list{list-style:disc}
   body{font-size:16px}
   .wrap{padding-left:20px;padding-right:20px}
   .band--home{min-height:auto}
-  .hero{grid-template-columns:1fr;gap:20px;padding-top:24px;padding-bottom:36px}
-  .headshot{width:110px}
-  .hero h1{font-size:36px}
+  .hero{display:block;padding-top:20px;padding-bottom:32px}
+  .headshot{width:84px;float:left;margin:2px 16px 12px 0}
+  .hero h1{font-size:32px;padding-top:6px}
+  .role{font-size:15px;line-height:1.45}
+  .lede{clear:both}
   .lede{font-size:17px}
-  .topbar nav{gap:4px 16px}
+  .topbar .bar{padding-top:10px;padding-bottom:10px;gap:4px}
+  .topbar nav{gap:4px 16px;flex-wrap:nowrap;overflow-x:auto;width:100%;scrollbar-width:none}
+  .topbar nav a{font-size:14px;white-space:nowrap}
+  .jump{margin-top:14px}
+  h2[id],section[id],h3[id]{scroll-margin-top:96px}
   .cue{display:none}
   .band-credit{text-align:left;padding:0 20px 14px}
   .sky{background-position:55% 30%;background-size:cover}
@@ -117,5 +142,3 @@ ul.pub-list{list-style:disc}
 .hl p a:hover{color:var(--accent-ink);text-decoration:underline}
 .news a{color:var(--ink);text-decoration:none}
 .news a:hover{color:var(--accent-ink);text-decoration:underline}
-.highlights .hl--noimg{grid-template-columns:1fr;padding-left:192px}
-@media (max-width:760px){.highlights .hl--noimg{padding-left:126px}}

@@ -6,8 +6,8 @@ excerpt: ' '
 date: 2019-09-09
 venue: 'SPIE Optics + Photonics, UV/Optical/IR Space Telescopes and Instruments, Innovative Technologies and Concepts IX, Proc. SPIE 11115'
 
-citation: 'Siyang Li,  George F. Smoot III. “Characterization of a silicon photomultiplier for the Ultra-Fast Astronomy telescope”, in [SPIE Optics + Photonics; UV/Optical/IR Space Telescopes and Instruments: Innovative Technologies and Concepts IX], Proc. SPIE 11115, 111150A (September 9, 2019).'
-authors: 'Siyang Li,  George F. Smoot III'
+citation: 'Siyang Li, George F. Smoot III. “Characterization of a silicon photomultiplier for the Ultra-Fast Astronomy telescope”, in [SPIE Optics + Photonics; UV/Optical/IR Space Telescopes and Instruments: Innovative Technologies and Concepts IX], Proc. SPIE 11115, 111150A (September 9, 2019).'
+authors: 'Siyang Li, George F. Smoot III'
 authorship: first
 pubtype: proceedings
 venue_short: 'Proc. SPIE 11115, 111150A'

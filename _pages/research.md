@@ -3,6 +3,13 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+jump:
+  - ["Future directions", "future-directions"]
+  - ["Observing programs", "observing-programs"]
+  - ["JAGB", "jagb"]
+  - ["TRGB", "trgb"]
+  - ["Hubble constant", "h0"]
+  - ["Instrumentation", "instrumentation"]
 ---
 
 {% include base_path %}
@@ -16,6 +23,12 @@ author_profile: true
 **Independent distance ladders with Roman.** Roman's wide field will capture entire stellar halos of nearby galaxies in a single pointing. This will let us map how the TRGB varies with contrast ratio and stellar population across complete halos, and calibrate the color dependence of the near-infrared TRGB in Roman's own filters. Together with the JAGB, these measurements will build distance ladders that are independent of Cepheids.
 
 **Open, accessible H0 measurements.** Building on the CosmoVerse Data Challenge, we will develop shared datasets, blinded analysis challenges and public tools that let more of the community, including students, reproduce and test local measurements of the Hubble constant.
+
+## Observing programs
+
+Telescope time from the [CV]({{ base_path }}{{ site.data.cv.pdf }}).
+
+<ul class="cv-list">{% for e in site.data.cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em></span></li>{% endfor %}</ul>
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% assign themes = "jagb|J-region asymptotic giant branch (JAGB)|jagb.jpg|Li et al. 2024, ApJ;trgb|Tip of the red giant branch (TRGB)|trgb.jpg|Li et al. 2023, ApJ;h0|The Hubble constant and the distance ladder|h0.jpg|Li et al. 2025, ApJ;instrumentation|Instrumentation||" | split: ";" %}

@@ -1,5 +1,6 @@
-/* Header image drifts and dims as the page scrolls; sections fade in.
-   Both are skipped when the visitor asks for reduced motion. */
+/* Header image drifts and dims as the page scrolls; the top bar gains a
+   backdrop once the page moves; sections fade in.
+   The drift and fade-in are skipped when the visitor asks for reduced motion. */
 (function () {
   var sky = document.getElementById('sky');
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -11,6 +12,12 @@
     };
     window.addEventListener('scroll', update, { passive: true });
     update();
+  }
+  var bar = document.getElementById('topbar');
+  if (bar) {
+    var stick = function () { bar.classList.toggle('is-stuck', window.scrollY > 8); };
+    window.addEventListener('scroll', stick, { passive: true });
+    stick();
   }
   var els = document.querySelectorAll('.is-home .hl, .is-home .col-side, .is-home #about');
   if (reduce || !('IntersectionObserver' in window)) return;
