@@ -58,15 +58,15 @@ outreach:
     kind: outreach
     note: "Outreach talk for the general public in Sofia, Bulgaria."
   - date: "2025"
-    title: "Astro Night Public Outreach Talk, UC Berkeley Department of Astronomy"
+    title: "Astro Night Public Outreach Talk, University of California, Berkeley"
     kind: outreach
     note: "Talk for high school students, community members, and Sequoia Community College students."
   - date: "2025"
-    title: "Johns Hopkins Physics Fair Volunteer"
+    title: "Physics Fair Volunteer, Johns Hopkins University"
     kind: outreach
     note: "Live physics demonstrations to make scientific concepts accessible to the public."
   - date: "2025"
-    title: "Johns Hopkins Physics Department Outreach Volunteer"
+    title: "Physics Department Outreach Volunteer, Johns Hopkins University"
     kind: outreach
     note: "Visited Towson High School to present physics demonstrations and discuss careers in astronomy."
   - date: "2026"
@@ -100,7 +100,7 @@ outreach:
   - date: "2021–22"
     title: "Program for Advancing the Health Sciences (PATHS) Mentor"
     kind: mentoring
-    note: "Study habits workshop and one-on-one guidance for an Alexandria City public school student."
+    note: "Study habits workshop and twice-monthly one-on-one meetings with an Alexandria City public school student."
   - date: "2021"
     title: "Application Resources for College and Higher-Education (ARCH) Mentor and Panelist"
     kind: mentoring
