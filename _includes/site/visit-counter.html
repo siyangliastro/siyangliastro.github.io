@@ -1,0 +1,4 @@
+{%- comment -%} Private visit counter. Nothing is shown on the page; counts are at https://CODE.goatcounter.com. Set goatcounter_code in _config.yml. Only production builds (GitHub Pages) count, so local previews are not counted. {%- endcomment -%}
+{%- if site.goatcounter_code and site.goatcounter_code != "" and jekyll.environment == "production" -%}
+<script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{%- endif -%}
