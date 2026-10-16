@@ -11,7 +11,7 @@ pubtype: refereed
 venue_short: 'ApJ 997, 115'
 arxiv: '2504.08921'
 doi: '10.3847/1538-4357/ae1f17'
-ads: 'https://ui.adsabs.harvard.edu/abs/2025arXiv250408921L/abstract'
+ads: 'https://ui.adsabs.harvard.edu/abs/2026ApJ...997..115L/abstract'
 collection: publications
 themes: [trgb]
 ---
