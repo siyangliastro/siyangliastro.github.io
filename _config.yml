@@ -73,7 +73,7 @@ social:
 
 # Visit counter (GoatCounter). Put your GoatCounter code here, e.g. "siyangli" for
 # https://siyangli.goatcounter.com. Leave it empty to turn the counter off.
-goatcounter_code         : ""
+goatcounter_code         : "siyangli"
 
 # Analytics
 analytics:
