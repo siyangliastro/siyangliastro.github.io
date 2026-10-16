@@ -15,7 +15,7 @@ jump:
 
 <h2 id="teaching">Teaching</h2>
 <ul class="cv-list">
-{% for post in site.teaching reversed %}<li><span class="when">{{ post.type | remove: "Graduate Teaching Assistant: " | remove: " Undergraduate Course" }}</span> <span><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>, {{ post.venue | strip }}. Graduate teaching assistant.</span></li>
+{% for post in site.teaching reversed %}<li><span class="when">{{ post.type | remove: "Graduate Teaching Assistant: " | remove: " Undergraduate Course" }}</span> <span><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>, {{ post.venue | strip }}. {{ post.role | default: "Graduate teaching assistant" }}.</span></li>
 {% endfor %}</ul>
 
 <h2 id="mentoring">Mentoring</h2>
