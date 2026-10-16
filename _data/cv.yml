@@ -40,7 +40,7 @@ awards:
     title: "UC Berkeley Regents’ and Chancellor’s Scholarship (top 2% of undergraduates)"
 service:
   - date: "2026"
-    title: "Grant Proposal Referee, PRELUDIUM program, National Science Centre (NCN), Poland"
+    title: "Grant Proposal Referee, PRELUDIUM program, National Science Centre, Poland"
   - date: "2025–26"
     title: "Lead Organizer, CosmoVerse Data Challenge & School"
   - date: "2025"
@@ -50,7 +50,7 @@ service:
   - date: "2024–25"
     title: "Member, Johns Hopkins Physics & Astronomy Mentorship Committee"
   - date: "2024"
-    title: "Referee, The Astrophysical Journal Supplement Series"
+    title: "Referee, The Astrophysical Journal Supplement Series (IOP Publishing)"
 # MENTORSHIP and OUTREACH in the CV. `kind` splits mentoring from public outreach on /teaching/.
 outreach:
   - date: "2026"
