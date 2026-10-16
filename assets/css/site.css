@@ -124,7 +124,7 @@ ul.pub-list{list-style:disc}
   .lede{clear:both}
   .lede{font-size:17px}
   .topbar .bar{padding-top:10px;padding-bottom:10px;gap:4px}
-  .topbar nav{gap:4px 16px;flex-wrap:nowrap;overflow-x:auto;width:100%;scrollbar-width:none}
+  .topbar nav{gap:4px 16px;flex-wrap:wrap;width:100%}
   .topbar nav a{font-size:14px;white-space:nowrap}
   .jump{margin-top:14px}
   h2[id],section[id],h3[id]{scroll-margin-top:96px}
@@ -142,3 +142,9 @@ ul.pub-list{list-style:disc}
 .hl p a:hover{color:var(--accent-ink);text-decoration:underline}
 .news a{color:var(--ink);text-decoration:none}
 .news a:hover{color:var(--accent-ink);text-decoration:underline}
+.leads{margin:0 0 36px;padding:14px 18px;border:1px solid var(--rule);border-radius:10px;font-size:15px;line-height:1.7}
+.leads-label{display:block;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink)}
+.pub-cites,.pub-note{color:var(--mute);font-size:14px}
+.more-pubs{margin:0 0 8px}
+.more-pubs summary{cursor:pointer;font-weight:500;color:var(--accent-ink);padding:6px 0}
+@media (min-width:761px){.leads .nw{white-space:nowrap}}

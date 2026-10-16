@@ -2,6 +2,9 @@
 pdf: /files/CV_Siyang_Li_October_16_2026.pdf
 pdf_date: "October 16, 2026"
 position: "Brinson Prize Postdoctoral Fellow, University of California, Berkeley (Host: Alexei V. Filippenko)"
+# Citation lines copied from the CV PDF (pages 2 and 3).
+citations_first: "Citations to all 13 first-author publications (8 refereed, 1 submitted, 4 proceedings) as of October 16, 2026: 248."
+citations_total: "Total citations as of October 16, 2026: 1052 (531 excluding the CosmoVerse White Paper)"
 home_role: "Brinson Prize Postdoctoral Fellow, University of California, Berkeley"
 education:
   - date: "2020 – 2025"

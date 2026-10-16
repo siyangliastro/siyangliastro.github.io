@@ -14,6 +14,7 @@ doi: ''
 ads: 'https://ui.adsabs.harvard.edu/abs/2026arXiv260925412L/abstract'
 collection: publications
 themes: [jagb]
+students: ['Gracelynn Jost', 'Yash Mehta', 'Elaina Sadler', 'Julian Shapiro'] # marked † as in the CV
 ---
 
 {% include pub-links.html %}

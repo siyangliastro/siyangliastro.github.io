@@ -1,5 +1,5 @@
-{% assign p = include.p %}<li class="pub">
-  <span class="pub-authors">{{ p.authors | replace: "Siyang Li", "<strong>Siyang Li</strong>" | replace: "S. Li,", "<strong>S. Li</strong>," }}.</span>
+{% assign p = include.p %}{% assign au = p.authors %}{% for st in p.students %}{% assign mark = st | append: "†" %}{% assign au = au | replace: st, mark %}{% endfor %}<li class="pub">
+  <span class="pub-authors">{{ au | replace: "Siyang Li", "<strong>Siyang Li</strong>" | replace: "S. Li,", "<strong>S. Li</strong>," }}.</span>
   <a class="pub-title" href="{{ base_path }}{{ p.url }}">{{ p.title }}</a>.
   <span class="pub-venue">{{ p.venue_short }} ({{ p.date | date: "%Y" }})</span>
   {% include pub-links.html p=p %}

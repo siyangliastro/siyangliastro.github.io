@@ -28,16 +28,23 @@ jump:
 
 Telescope time from the [CV]({{ base_path }}{{ site.data.cv.pdf }}).
 
-<ul class="cv-list">{% for e in site.data.cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em>{% if e.chase %} Data for the CHASE spectral survey.{% endif %}</span></li>{% endfor %}</ul>
+<ul class="cv-list">{% for e in site.data.cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em>.{% if e.chase %} Data for the CHASE spectral survey.{% endif %}</span></li>{% endfor %}</ul>
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
-{% assign themes = "jagb|J-region asymptotic giant branch (JAGB)|jagb.jpg|Li et al. 2024, ApJ;trgb|Tip of the red giant branch (TRGB)|trgb.jpg|Li et al. 2023, ApJ;h0|The Hubble constant and the distance ladder|h0.jpg|Li et al. 2025, ApJ;instrumentation|Instrumentation||" | split: ";" %}
+{% assign themes = "jagb|J-region asymptotic giant branch (JAGB)|jagb.jpg|Li et al. 2024, ApJ|JAGB;trgb|Tip of the red giant branch (TRGB)|trgb.jpg|Li et al. 2023, ApJ|TRGB;h0|The Hubble constant and the distance ladder|h0.jpg|Li et al. 2025, ApJ|Hubble constant;instrumentation|Instrumentation| | |instrumentation" | split: ";" %}
 {% for t in themes %}{% assign f = t | split: "|" %}
 <section class="theme" id="{{ f[0] }}">
 <h2>{{ f[1] }}</h2>
-{% if f[2] and f[2] != "" %}<figure class="theme-fig"><img src="{{ base_path }}/images/highlights/{{ f[2] }}" alt="Figure from {{ f[3] }}" loading="lazy"><figcaption>{{ f[3] }}</figcaption></figure>{% endif %}
+{% assign fig = f[2] | strip %}{% if fig != "" %}<figure class="theme-fig"><img src="{{ base_path }}/images/highlights/{{ f[2] }}" alt="Figure from {{ f[3] }}" loading="lazy"><figcaption>{{ f[3] }}</figcaption></figure>{% endif %}
+{% assign tp = "" | split: "" %}{% assign tq = "" | split: "" %}{% for p in pubs %}{% if p.themes contains f[0] %}{% if p.authorship == "first" %}{% assign tp = tp | push: p %}{% else %}{% assign tq = tq | push: p %}{% endif %}{% endif %}{% endfor %}{% assign tp = tp | concat: tq %}
 <ul class="pub-list">
-{% for p in pubs %}{% if p.themes contains f[0] %}{% include pub-entry.html p=p %}{% endif %}{% endfor %}
+{% for p in tp limit: 2 %}{% include pub-entry.html p=p %}{% endfor %}
 </ul>
+{% if tp.size > 2 %}<details class="more-pubs"><summary>{{ tp.size | minus: 2 }} more {{ f[4] }} papers</summary>
+<ul class="pub-list">
+{% for p in tp offset: 2 %}{% include pub-entry.html p=p %}{% endfor %}
+</ul>
+</details>{% endif %}
+{% assign stu = tp | where_exp: "x", "x.students" %}{% if stu.size > 0 %}<p class="pub-note">† Student mentored by S. Li.</p>{% endif %}
 </section>
 {% endfor %}
