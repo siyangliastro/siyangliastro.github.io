@@ -5,7 +5,7 @@ redirect_from:
   - /about/
   - /about.html
 title: "Siyang Li"
-tab_title: "Siyang Li - Observational Cosmologist, UC Berkeley"
+tab_title: "Siyang Li - Cosmologist"
 lede: "I am an observational cosmologist working on local measurements of the Hubble constant. I construct independent distance ladders with JWST, HST, and Gaia to test whether the Hubble tension reflects unrecognized systematics or physics beyond ΛCDM."
 lede2: "My research focuses on calibrating the tip of the red giant branch (TRGB) and the J-region asymptotic giant branch (JAGB) as precision distance indicators."
 ---
