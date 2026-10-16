@@ -12,6 +12,8 @@ jump:
 {% include base_path %}
 {% assign pubs = site.publications | sort: "date" | reverse %}
 
+<p class="pub-cites">{{ site.data.cv.citations_first }}<br>{{ site.data.cv.citations_total }}. <a href="{{ site.author.ads }}">ADS</a><br>† Student mentored by S. Li.</p>
+
 ## First-author papers
 
 ### Refereed and submitted

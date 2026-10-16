@@ -12,6 +12,8 @@ lede2: "My research focuses on calibrating the tip of the red giant branch (TRGB
 
 {% include base_path %}
 
+<p class="leads"><span class="leads-label">Programs I lead</span> <span class="nw"><strong>PI:</strong> <a href="{{ base_path }}/research/#observing-programs">CHASE spectral survey (Lick Shane, APO 3.5 m)</a></span> · <span class="nw"><a href="{{ base_path }}/research/#observing-programs">HST GO-17911</a></span> · <span class="nw"><strong>Lead organizer:</strong> CosmoVerse Data Challenge &amp; School</span> · <span class="nw"><a href="{{ base_path }}/research/#future-directions">Future directions →</a></span></p>
+
 <div class="home-cols">
 <section class="col-main">
 <h2 id="highlights">Research highlights</h2>
@@ -30,7 +32,3 @@ Hello! My name is Siyang (Sean) Li, and I'm currently a Brinson Prize Postdoctor
 ### My research
 
 During my PhD, I worked with Professor Adam G. Riess in the Supernovae, H0, for the Equation of State of Dark energy (SH0ES) group and analyzed data from the James Webb, Hubble, and Gaia space telescopes to improve standardization of the tip of the red giant branch (TRGB) and J-region Asymptotic Giant Branch (JAGB). These two standardizable candles can be used to construct distance ladders to measure H0 and probe the causes of the Hubble Tension, which is a 5 - 6 sigma difference between local and cosmological measurements of H0. I'm continuing this line of research here at Cal while being hosted by Professor Alex Filippenko in the Department of Astronomy.
-
-### My background
-
-I received my Bachelor of Arts in Physics with high honors from the University of California, Berkeley. There, I built a foundation in instrumentation working with Professor George F. Smoot on developing a silicon photomultiplier camera to search for optical counterparts to fast radio bursts and other astrophysical sub-millisecond transients. To work on this project and collaborate with various researchers, I visited Paris Diderot University in France, Hong Kong University of Science and Technology in China, and Nazarbayev University in Kazakhstan. I also spent a summer working with Professor Shelley Wright and Dr. Jerome Maire in the Pulsed All-sky Near-infrared Optical Search for Extraterrestrial Intelligence group at the University of California, San Diego, to characterize a near-infrared discrete avalanche photodiode 5x5 array that is currently being used to search for extraterrestrial technosignatures and other near-infrared transients.
