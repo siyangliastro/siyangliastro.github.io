@@ -17,7 +17,7 @@ a:hover{color:var(--ink)}
 
 .band{color:var(--band-text);position:relative}
 .band a{color:var(--band-text)}
-.band--home{min-height:calc(92vh - 62px);display:flex;flex-direction:column}
+.band--home{display:flex;flex-direction:column}
 .topbar{position:sticky;top:0;z-index:20;color:var(--band-text);transition:background-color .25s ease,box-shadow .25s ease}
 .topbar.is-stuck{background:rgba(12,21,40,.94);box-shadow:0 1px 0 rgba(255,255,255,.06),0 6px 20px rgba(0,0,0,.25);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 .topbar a{color:var(--band-text)}
@@ -27,7 +27,7 @@ a:hover{color:var(--ink)}
 .topbar nav a{text-decoration:none;color:#c7cee0;font-size:15px;padding:2px 0;border-bottom:2px solid transparent}
 .topbar nav a:hover,.topbar nav a[aria-current="page"]{color:#fff;border-bottom-color:var(--accent)}
 
-.hero{flex:1;display:grid;grid-template-columns:180px 1fr;gap:48px;align-items:center;padding-top:48px;padding-bottom:64px}
+.hero{flex:1;display:grid;grid-template-columns:180px 1fr;gap:48px;align-items:center;padding-top:40px;padding-bottom:28px}
 .hero>div{max-width:620px}
 .headshot{width:180px;border-radius:50%;aspect-ratio:1;object-fit:cover;border:3px solid #2c3a5c}
 .hero h1{font:500 46px/1.1 'IBM Plex Serif',Georgia,serif;margin:0 0 4px;color:#fff}

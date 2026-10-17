@@ -13,6 +13,8 @@
   paper: /publication/JAGB_Recon
 - theme: "Tip of the red giant branch"
   tag: "TRGB"
+  image: /images/highlights/trgb_complete.jpg
+  credit: "Li et al. 2026, ApJ"
   paper: /publication/TRGB_Complete
 - theme: "Tip of the red giant branch"
   tag: "TRGB"
