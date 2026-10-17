@@ -6,18 +6,22 @@
   image: /images/highlights/h0.jpg
   credit: "Li et al. 2025, ApJ"
   paper: /publication/JAGB_2
+  text: "With JWST JAGB distances now covering 15 hosts of 18 Type Ia supernovae, we find no significant difference from HST Cepheid distances (−0.03 ± 0.02 stat ± 0.05 sys mag) and measure H0 = 73.3 ± 1.4 (stat) ± 2.0 (sys) km/s/Mpc."
 - theme: "J-region asymptotic giant branch"
   tag: "JAGB"
   image: /images/highlights/jagb.jpg
   credit: "Li et al. 2024, ApJ"
   paper: /publication/JAGB_Recon
+  text: "JWST shows that common ways of measuring the JAGB brightness differ by up to ~0.2 mag within the same galaxy, spanning H0 = 71–78 km/s/Mpc; our fiducial value is 74.7 ± 2.1 (stat) ± 2.3 (sys) km/s/Mpc."
 - theme: "Tip of the red giant branch"
   tag: "TRGB"
   image: /images/highlights/trgb_complete.jpg
   credit: "Li et al. 2026, ApJ"
   paper: /publication/TRGB_Complete
+  text: "Compiling all 35 supernova hosts with HST or JWST TRGB distances, 50% more than any earlier sample, gives H0 = 72.1–73.3 ± 1.8 km/s/Mpc, consistent with Cepheids; a lower published value traces to 11 hosts left out of that compilation."
 - theme: "Tip of the red giant branch"
   tag: "TRGB"
   image: /images/highlights/trgb_jwst.jpg
   credit: "Li et al. 2024, ApJ"
   paper: /publication/TRGB_JWST
+  text: "JWST I-band TRGB distances to 8 hosts of 10 Type Ia supernovae agree with HST Cepheid distances to 0.01 ± 0.04 (stat) ± 0.04 (sys) mag, a direct check on the middle rung of the distance ladder."
