@@ -1,4 +1,4 @@
-# Newest first. Each item comes from the CV (files/CV_Siyang_Li_October_16_2026.pdf).
+# Newest first. Items come from the CV (files/CV_Siyang_Li_October_16_2026.pdf); publication months are the IOP online dates.
 - date: "Sep 2026"
   text: "“CHASE Spectral Survey I” submitted to ApJ, with four mentored undergraduates as co-authors"
   url: /publication/CHASE_I
@@ -8,11 +8,14 @@
   text: "Invited talk, Galileo Galilei Institute, Florence (virtual)"
 - date: "Apr 2026"
   text: "Invited talk, Cross-Survey Cosmography conference, New Delhi"
-- date: "2026"
+- date: "Jan 2026"
   text: "“The Complete Sample of Available SNe Ia Luminosity Calibrations from the TRGB Observed with either HST or JWST” published in ApJ 997, 115"
   url: /publication/TRGB_Complete
 - date: "Dec 2025"
   text: "Invited talk, 33rd Texas Symposium on Relativistic Astrophysics, Tempe"
+- date: "Oct 2025"
+  text: "“The Perfect Host” (JWST Cepheids confirm no bias in H₀ measurements) published in ApJL 992, L34, second author"
+  url: /publication/coauthor_Riess_2025
 - date: "2025–26"
   text: "Lead organizer, CosmoVerse Data Challenge & School"
 - date: "2025"

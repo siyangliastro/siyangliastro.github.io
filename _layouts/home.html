@@ -10,6 +10,7 @@ layout: default
       <p class="role">{{ site.data.cv.home_role | default: site.data.cv.position }}</p>
       <p class="lede">{{ page.lede }}</p>
       <p class="lede2">{{ page.lede2 }}</p>
+      {% if page.lede3 %}<p class="lede3"><strong>Key results:</strong> {{ page.lede3 }}</p>{% endif %}
       {% include home-links.html %}
     </div>
   </section>

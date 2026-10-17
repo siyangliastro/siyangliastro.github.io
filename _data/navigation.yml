@@ -10,6 +10,7 @@ main:
     url: /talks/
 
   - title: "Teaching & Mentoring"
+    short: "Teaching"
     url: /teaching/
 
   - title: "CV"
