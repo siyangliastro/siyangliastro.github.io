@@ -1,0 +1,5 @@
+# One result sentence per Research-page theme. Numbers from the published ApJ abstracts
+# (IOP), and for CHASE I from the arXiv abstract (submitted).
+jagb: "JWST shows that the JAGB brightness depends on how it is measured, by up to ~0.2 mag within one galaxy, and CHASE spectra show that 76% of stars in its standard color selection are not carbon stars. Across 15 JWST hosts of 18 Type Ia supernovae, JAGB distances still agree with HST Cepheids (−0.03 ± 0.02 stat ± 0.05 sys mag)."
+trgb: "JWST I-band TRGB distances to 8 hosts of 10 Type Ia supernovae match HST Cepheids to 0.01 ± 0.04 (stat) ± 0.04 (sys) mag, and the complete HST and JWST TRGB calibration of 35 Type Ia supernovae gives H₀ = 72.1–73.3 ± 1.8 km/s/Mpc."
+h0: "Calibrating Type Ia supernovae with JWST JAGB distances gives H₀ = 73.3 ± 1.4 (stat) ± 2.0 (sys) km/s/Mpc, and all 35 HST or JWST TRGB calibrations give H₀ = 72.1–73.3 ± 1.8 km/s/Mpc, in good agreement with 72.5 ± 1.5 km/s/Mpc from HST Cepheids. Earlier, HST near-infrared Cepheids put M31 at 761 ± 11 kpc (1.49% uncertainty), the most precise distance to it at the time."

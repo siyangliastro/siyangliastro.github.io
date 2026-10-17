@@ -148,3 +148,13 @@ ul.pub-list{list-style:disc}
 .more-pubs{margin:0 0 8px}
 .more-pubs summary{cursor:pointer;font-weight:500;color:var(--accent-ink);padding:6px 0}
 @media (min-width:761px){.leads .nw{white-space:nowrap}}
+
+/* round-5 committee fixes */
+.lede3{margin:-10px 0 24px;font-size:15px;line-height:1.6;color:#dfe4ef;border-left:3px solid var(--accent);padding-left:12px}
+.leads .lead-row{display:block}
+.leads .lead-more{margin-top:4px}
+.nav-short{display:none}
+@media (max-width:760px){.nav-long{display:none}.nav-short{display:inline}}
+.theme-summary{font-size:16px;line-height:1.6;margin:0 0 14px}
+@media (min-width:761px){.hero{padding-top:16px;padding-bottom:12px}.cue{display:none}.leads .lead-row a{white-space:nowrap}}
+.lede3 strong{color:#fff}

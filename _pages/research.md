@@ -22,11 +22,10 @@ jump:
 
 **Independent distance ladders with Roman.** Roman's wide field will capture entire stellar halos of nearby galaxies in a single pointing. This will let us map how the TRGB varies with contrast ratio and stellar population across complete halos, and calibrate the color dependence of the near-infrared TRGB in Roman's own filters. Together with the JAGB, these measurements will build distance ladders that are independent of Cepheids.
 
-**Open, accessible H0 measurements.** Building on the CosmoVerse Data Challenge, we will develop shared datasets, blinded analysis challenges and public tools that let more of the community, including students, reproduce and test local measurements of the Hubble constant.
+**Open, accessible H<sub>0</sub> measurements.** Building on the CosmoVerse Data Challenge, we will develop shared datasets, blinded analysis challenges and public tools that let more of the community, including students, reproduce and test local measurements of the Hubble constant.
 
 ## Observing programs
 
-Telescope time from the [CV]({{ base_path }}{{ site.data.cv.pdf }}).
 
 <ul class="cv-list">{% for e in site.data.cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em>.{% if e.chase %} Data for the CHASE spectral survey.{% endif %}</span></li>{% endfor %}</ul>
 
@@ -35,6 +34,7 @@ Telescope time from the [CV]({{ base_path }}{{ site.data.cv.pdf }}).
 {% for t in themes %}{% assign f = t | split: "|" %}
 <section class="theme" id="{{ f[0] }}">
 <h2>{{ f[1] }}</h2>
+{% assign tkey = f[0] | strip %}{% assign summ = site.data.theme_summaries[tkey] %}{% if summ %}<p class="theme-summary">{{ summ }}</p>{% endif %}
 {% assign fig = f[2] | strip %}{% if fig != "" %}<figure class="theme-fig"><img src="{{ base_path }}/images/highlights/{{ f[2] }}" alt="{{ f[5] }}. Figure from {{ f[3] }}" loading="lazy"><figcaption>{{ f[5] }}. From <a href="{{ base_path }}{{ f[6] }}">{{ f[3] }}</a>.</figcaption></figure>{% endif %}
 {% assign tp = "" | split: "" %}{% assign tq = "" | split: "" %}{% for p in pubs %}{% if p.themes contains f[0] %}{% if p.authorship == "first" %}{% assign tp = tp | push: p %}{% else %}{% assign tq = tq | push: p %}{% endif %}{% endif %}{% endfor %}{% assign tp = tp | concat: tq %}
 <ul class="pub-list">

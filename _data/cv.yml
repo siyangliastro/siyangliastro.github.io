@@ -2,6 +2,7 @@
 pdf: /files/CV_Siyang_Li_October_16_2026.pdf
 pdf_date: "October 16, 2026"
 position: "Brinson Prize Postdoctoral Fellow, University of California, Berkeley (Host: Alexei V. Filippenko)"
+position_dates: "2025–present"
 # Citation lines copied from the CV PDF (pages 2 and 3).
 citations_first: "Citations to all 13 first-author publications (8 refereed, 1 submitted, 4 proceedings) as of October 16, 2026: 248."
 citations_total: "Total citations as of October 16, 2026: 1052 (531 excluding the CosmoVerse White Paper)"
@@ -34,6 +35,8 @@ awards:
     title: "International Space Science Institute (ISSI) Postdoctoral Fellowship (declined)"
   - date: "2024"
     title: "American Astronomical Society Rodger Doxsey Travel Prize (one of 8 recipients selected from 47 entries)"
+  - date: "2024"
+    title: "Lindau Nobel Laureate Meeting (Physics), selected participant, 73rd meeting, Lindau, Germany"
   - date: "2022–25"
     title: "National Science Foundation Graduate Research Fellowship ($108,000)"
   - date: "2019"
@@ -105,14 +108,12 @@ outreach:
     note: "Academic and career mentoring through the Physics & Astronomy department program."
   - date: "2021–22"
     title: "Program for Advancing the Health Sciences (PATHS) Mentor"
-    kind: mentoring
+    kind: outreach
     note: "Study habits workshop and twice-monthly one-on-ones with an Alexandria high school student."
   - date: "2021"
     title: "Application Resources for College and Higher-Education (ARCH) Mentor and Panelist"
-    kind: mentoring
+    kind: outreach
     note: "Scholarship and essay panelist; weekly one-on-ones with an underprivileged college applicant."
 other:
-  - date: "2024"
-    title: "Lindau Nobel Laureate Meeting (Physics), selected participant, 73rd meeting, Lindau, Germany"
   - date: "2019"
     title: "Siyang Li, George F. Smoot III, Thorsten Stezelberger. “Silicon Photomultiplier Telescope Camera.” U.S. Provisional Patent Application No. 62/940,250, filed November 26, 2019 (provisional only; no full application filed)."

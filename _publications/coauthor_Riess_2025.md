@@ -9,7 +9,7 @@ authorship: coauthor
 pubtype: refereed
 venue_short: 'ApJL 992, L34'
 arxiv: '2509.01667'
-doi: ''
+doi: '10.3847/2041-8213/ae0ad6'
 ads: 'https://ui.adsabs.harvard.edu/abs/2025ApJ...992L..34R/abstract'
 citation: 'Adam G. Riess, Siyang Li, Gagandeep S. Anand, Wenlong Yuan, Louise Breuval, Stefano Casertano, Lucas M. Macri, Daniel Scolnic, Yukei S. Murakami, Alexei V. Filippenko, Thomas G. Brink. “The Perfect Host: JWST Cepheid Observations in a Background-free Type Ia Supernova Host Confirm No Bias in Hubble-constant Measurements.” ApJL 992, L34 (2025).'
 themes: [h0]

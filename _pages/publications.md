@@ -6,7 +6,7 @@ author_profile: true
 jump:
   - ["First-author", "first-author-papers"]
   - ["Co-author", "co-author-papers"]
-  - ["Book chapter & white papers", "book-chapter-and-white-papers"]
+  - ["Book chapter & white-paper sections", "book-chapter-and-white-paper-sections"]
 ---
 
 {% include base_path %}
@@ -32,7 +32,7 @@ jump:
 {% for p in pubs %}{% if p.authorship == "coauthor" %}{% include pub-entry.html p=p %}{% endif %}{% endfor %}
 </ol>
 
-## Book chapter and white papers
+## Book chapter and white-paper sections
 
 <ul class="pub-list">
 {% for p in pubs %}{% if p.authorship == "other" %}{% include pub-entry.html p=p %}{% endif %}{% endfor %}
