@@ -31,11 +31,11 @@ Telescope time from the [CV]({{ base_path }}{{ site.data.cv.pdf }}).
 <ul class="cv-list">{% for e in site.data.cv.telescope %}<li><span>{{ e.note }}. <em>{{ e.title }}</em>.{% if e.chase %} Data for the CHASE spectral survey.{% endif %}</span></li>{% endfor %}</ul>
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
-{% assign themes = "jagb|J-region asymptotic giant branch (JAGB)|jagb.jpg|Li et al. 2024, ApJ|JAGB;trgb|Tip of the red giant branch (TRGB)|trgb.jpg|Li et al. 2023, ApJ|TRGB;h0|The Hubble constant and the distance ladder|h0.jpg|Li et al. 2025, ApJ|Hubble constant;instrumentation|Instrumentation| | |instrumentation" | split: ";" %}
+{% assign themes = "jagb|J-region asymptotic giant branch (JAGB)|jagb.jpg|Li et al. 2024|JAGB|Near-infrared color–magnitude diagram, with stellar populations labeled A–K|/publication/JAGB_Recon;trgb|Tip of the red giant branch (TRGB)|trgb.jpg|Li et al. 2023|TRGB|Fields (green) across NGC 4258|/publication/TRGB_CATs_N4258;h0|The Hubble constant and the distance ladder|h0.jpg|Li et al. 2025|Hubble constant|JWST fields (green) on six galaxies in the expanded sample|/publication/JAGB_2;instrumentation|Instrumentation| | |instrumentation| | " | split: ";" %}
 {% for t in themes %}{% assign f = t | split: "|" %}
 <section class="theme" id="{{ f[0] }}">
 <h2>{{ f[1] }}</h2>
-{% assign fig = f[2] | strip %}{% if fig != "" %}<figure class="theme-fig"><img src="{{ base_path }}/images/highlights/{{ f[2] }}" alt="Figure from {{ f[3] }}" loading="lazy"><figcaption>{{ f[3] }}</figcaption></figure>{% endif %}
+{% assign fig = f[2] | strip %}{% if fig != "" %}<figure class="theme-fig"><img src="{{ base_path }}/images/highlights/{{ f[2] }}" alt="{{ f[5] }}. Figure from {{ f[3] }}" loading="lazy"><figcaption>{{ f[5] }}. From <a href="{{ base_path }}{{ f[6] }}">{{ f[3] }}</a>.</figcaption></figure>{% endif %}
 {% assign tp = "" | split: "" %}{% assign tq = "" | split: "" %}{% for p in pubs %}{% if p.themes contains f[0] %}{% if p.authorship == "first" %}{% assign tp = tp | push: p %}{% else %}{% assign tq = tq | push: p %}{% endif %}{% endif %}{% endfor %}{% assign tp = tp | concat: tq %}
 <ul class="pub-list">
 {% for p in tp limit: 2 %}{% include pub-entry.html p=p %}{% endfor %}
