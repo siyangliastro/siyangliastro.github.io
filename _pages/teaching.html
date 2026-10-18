@@ -24,7 +24,7 @@ jump:
 
 <h2 id="outreach">Public outreach</h2>
 <ul class="cv-list">
-{% for t in site.data.cv.outreach %}{% if t.kind == "outreach" %}<li><span class="when">{{ t.date }}</span> <span><strong>{{ t.title }}</strong>{% if t.note %}. {{ t.note }}{% endif %}</span></li>
+{% for t in site.data.cv.outreach %}{% if t.kind == "outreach" %}<li><span class="when">{{ t.date }}</span> <span><strong>{% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</strong>{% if t.note %}. {{ t.note }}{% endif %}</span></li>
 {% endif %}{% endfor %}</ul>
 
 <h2 id="service">Service</h2>
