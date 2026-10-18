@@ -26,7 +26,7 @@ lede3: "JWST TRGB and JAGB distances agree with HST Cepheids within 0.03 mag; al
 </section>
 <aside class="col-side">
 <h2 id="news">News</h2>
-<ul class="news">{% for n in site.data.news %}<li><span class="when">{{ n.date }}</span> <span>{% if n.url %}<a href="{{ base_path }}{{ n.url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>{% endfor %}</ul>
+<ul class="news">{% for n in site.data.news %}<li><span class="when">{{ n.date }}</span> <span>{% if n.url contains "://" %}<a href="{{ n.url }}">{{ n.text }}</a>{% elsif n.url %}<a href="{{ base_path }}{{ n.url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>{% endfor %}</ul>
 </aside>
 </div>
 

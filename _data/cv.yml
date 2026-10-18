@@ -1,6 +1,6 @@
-# Copied from files/CV_Siyang_Li_October_16_2026.pdf. Update this file when the CV changes.
-pdf: /files/CV_Siyang_Li_October_16_2026.pdf
-pdf_date: "October 16, 2026"
+# Copied from files/CV_Siyang_Li_October_17_2026.pdf. Update this file when the CV changes.
+pdf: /files/CV_Siyang_Li_October_17_2026.pdf
+pdf_date: "October 17, 2026"
 position: "Brinson Prize Postdoctoral Fellow, University of California, Berkeley (Host: Alexei V. Filippenko)"
 position_dates: "2025–present"
 # Citation lines copied from the CV PDF (pages 2 and 3).
@@ -62,6 +62,11 @@ service:
     title: "Referee, The Astrophysical Journal Supplement Series (IOP Publishing)"
 # MENTORSHIP and OUTREACH in the CV. `kind` splits mentoring from public outreach on /teaching/.
 outreach:
+  - date: "2026"
+    title: "First Light Astronomy, YouTube channel"
+    kind: outreach
+    url: https://www.youtube.com/@FirstLightAstronomy-l8l
+    note: "Videos on the Hubble tension and astronomy for a general audience. Started October 2026."
   - date: "2026"
     title: "Public Talk on the Hubble Tension, Bulgarian Academy of Sciences"
     kind: outreach
