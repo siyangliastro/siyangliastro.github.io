@@ -5,7 +5,7 @@ permalink: /publication/Gaia_TRGB_DR3
 excerpt: ' '
 date: 2023-06-13
 venue: The Astrophysical Journal
-citation: 'Siyang Li, Stefano Casertano, Adam G. Riess., “A Gaia Data Release 3 View on the Tip of the Red Giant Branch Luminosity”, Astrophysical Journal, 950, 83 (June 13, 2023).'
+citation: 'Siyang Li, Stefano Casertano, Adam G. Riess. “A Gaia Data Release 3 View on the Tip of the Red Giant Branch Luminosity”, Astrophysical Journal, 950, 83 (June 13, 2023).'
 authors: 'Siyang Li, Stefano Casertano, Adam G. Riess'
 authorship: first
 pubtype: refereed

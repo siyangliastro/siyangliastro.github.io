@@ -7,4 +7,4 @@ venue: " Johns Hopkins University, Department of Physics and Astronomy"
 location: "Baltimore, Maryland, United States"
 ---
 
-First semester physics lab course for physical science majors.
+First-semester physics lab course for physical science majors.

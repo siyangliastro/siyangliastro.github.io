@@ -6,7 +6,7 @@ permalink: /publication/TRGB_CATs_N4258
 excerpt: ' '
 date: 2023-10-05
 venue: The Astrophysical Journal
-citation: 'Siyang Li, Adam G. Riess, Daniel Scolnic, Gagandeep S. Anand, Jiaxi Wu, Stefano Casertano, Wenlong Yuan, Rachael Beaton, Richard I. Anderson. “Standardized Luminosity of the Tip of the Red Giant Branch utilizing Multiple Fields in NGC 4258 and the CATs Algorithm”, The Astrophysical Journal, 956 32 (October 5, 2023).'
+citation: 'Siyang Li, Adam G. Riess, Daniel Scolnic, Gagandeep S. Anand, Jiaxi Wu, Stefano Casertano, Wenlong Yuan, Rachael Beaton, Richard I. Anderson. “Standardized Luminosity of the Tip of the Red Giant Branch utilizing Multiple Fields in NGC 4258 and the CATs Algorithm”, The Astrophysical Journal, 956, 32 (October 5, 2023).'
 authors: 'Siyang Li, Adam G. Riess, Daniel Scolnic, Gagandeep S. Anand, Jiaxi Wu, Stefano Casertano, Wenlong Yuan, Rachael Beaton, Richard I. Anderson'
 authorship: first
 pubtype: refereed

@@ -4,7 +4,7 @@ permalink: /publication/TRGB_Complete
 excerpt: ' '
 date: 2026-01-16
 venue: The Astrophysical Journal
-citation: 'Siyang Li, Adam G. Riess, Gagandeep S. Anand, Daniel Scolnic, Yukei S. Murakami, Dillon Brout, Erik R. Peterson. “The Complete Sample of Available SNe Ia Luminosity Calibrations from the TRGB Observed with either HST or JWST”, The Astrophysical Journal, 997 115 (January 16, 2026).'
+citation: 'Siyang Li, Adam G. Riess, Gagandeep S. Anand, Daniel Scolnic, Yukei S. Murakami, Dillon Brout, Erik R. Peterson. “The Complete Sample of Available SNe Ia Luminosity Calibrations from the TRGB Observed with either HST or JWST”, The Astrophysical Journal, 997, 115 (January 16, 2026).'
 authors: 'Siyang Li, Adam G. Riess, Gagandeep S. Anand, Daniel Scolnic, Yukei S. Murakami, Dillon Brout, Erik R. Peterson'
 authorship: first
 pubtype: refereed
