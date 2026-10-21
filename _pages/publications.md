@@ -6,7 +6,7 @@ author_profile: true
 jump:
   - ["First-author", "first-author-papers"]
   - ["Co-author", "co-author-papers"]
-  - ["Book chapter & white-paper sections", "book-chapter-and-white-paper-sections"]
+  - ["Book chapter and white-paper sections", "book-chapter-and-white-paper-sections"]
 ---
 
 {% include base_path %}

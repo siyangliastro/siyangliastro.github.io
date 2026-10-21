@@ -1,6 +1,7 @@
 ---
 title: "AS.171.118 Stars and the Universe: Cosmic Evolution"
 collection: teaching
+date: 2021-01-25
 type: "Graduate Teaching Assistant: Spring 2021, 2022 Undergraduate Course"
 permalink: /teaching/2021_Spring_Teaching
 venue: " Johns Hopkins University, Department of Physics and Astronomy"

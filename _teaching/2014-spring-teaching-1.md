@@ -1,6 +1,7 @@
 ---
 title: "AS.171.102 General Physics: Physical Science Majors II"
 collection: teaching
+date: 2020-09-01
 type: "Graduate Teaching Assistant: Fall 2020 Undergraduate Course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Johns Hopkins University, Department of Physics and Astronomy"
