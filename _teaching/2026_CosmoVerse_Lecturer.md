@@ -1,6 +1,7 @@
 ---
 title: "CosmoVerse Data Challenge & School"
 collection: teaching
+date: 2026-06-01
 type: "Summer 2026"
 role: "Lecturer: 5 TRGB lectures"
 permalink: /teaching/2026_CosmoVerse_Lecturer

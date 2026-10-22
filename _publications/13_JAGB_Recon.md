@@ -5,7 +5,7 @@ permalink: /publication/JAGB_Recon
 excerpt: ' '
 date: 2024-04-23
 venue: The Astrophysical Journal
-citation: 'Siyang Li, Adam G. Riess, Stefano Casertano, Gagandeep S. Anand, Daniel Scolnic, Wenlong Yuan, Louise Breuval, Caroline D. Huang. “Reconnaissance with JWST of the J-region Asymptotic Giant Branch in Distance Ladder Galaxies: From Irregular Luminosity Functions to Approximation of the Hubble Constant”, The Astrophysical Journal, 966 20 (April 23, 2024).'
+citation: 'Siyang Li, Adam G. Riess, Stefano Casertano, Gagandeep S. Anand, Daniel Scolnic, Wenlong Yuan, Louise Breuval, Caroline D. Huang. “Reconnaissance with JWST of the J-region Asymptotic Giant Branch in Distance Ladder Galaxies: From Irregular Luminosity Functions to Approximation of the Hubble Constant”, The Astrophysical Journal, 966, 20 (April 23, 2024).'
 authors: 'Siyang Li, Adam G. Riess, Stefano Casertano, Gagandeep S. Anand, Daniel Scolnic, Wenlong Yuan, Louise Breuval, Caroline D. Huang'
 authorship: first
 pubtype: refereed
