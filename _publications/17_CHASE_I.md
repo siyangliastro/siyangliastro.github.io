@@ -4,7 +4,7 @@ permalink: /publication/CHASE_I
 excerpt: ' '
 date: 2026-09-23
 venue: Accepted to The Astrophysical Journal
-citation: 'Siyang Li, Alexei V. Filippenko, Arief Ahmad, Adam G. Riess, Stefano Casertano, Thomas G. Brink, Richard I. Anderson, Caroline D. Huang, Louise Breuval, Noriyuki Matsunaga, Gracelynn Jost, Yash Mehta, Elaina Sadler, Julian Shapiro. “CHASE Spectral Survey I: Measuring Contamination in the Color-selected J-region Asymptotic Giant Branch Distance Indicator”, accepted to The Astrophysical Journal (2026).'
+citation: 'Siyang Li, Alexei V. Filippenko, Arief Ahmad, Adam G. Riess, Stefano Casertano, Thomas G. Brink, Richard I. Anderson, Caroline D. Huang, Louise Breuval, Noriyuki Matsunaga, Gracelynn Jost, Yash Mehta, Elaina Sadler, Julian Shapiro. “CHASE Spectral Survey I: Measuring Contamination in the Color-selected J-region Asymptotic Giant Branch Distance Indicator”, accepted to The Astrophysical Journal, November 20, 2026.'
 authors: 'Siyang Li, Alexei V. Filippenko, Arief Ahmad, Adam G. Riess, Stefano Casertano, Thomas G. Brink, Richard I. Anderson, Caroline D. Huang, Louise Breuval, Noriyuki Matsunaga, Gracelynn Jost, Yash Mehta, Elaina Sadler, Julian Shapiro'
 authorship: first
 pubtype: refereed
